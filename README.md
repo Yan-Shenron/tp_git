@@ -1,62 +1,29 @@
-# Travaux Pratiques - Git (20 points)
+# Introduction à Python
 
-## Objectif
-Ce TP a pour objectif de vous familiariser avec les bases de Git, y compris l'initialisation d'un dépôt local, la liaison avec GitHub, la gestion des tokens, la génération de clés SSH, la récupération d'un dépôt distant, la fusion de branches, et la consultation des journaux.
+## c'est quoi?
+Python est un langage de programmation polyvalent, interprété et orienté objet créé dans les années 1990 par Guido van Rossum. Il est devenu l'un des langages les plus populaires et largement utilisés dans le monde de la programmation en raison de sa simplicité, de sa lisibilité et de sa grande flexibilité.
 
-## Étapes
+## Étape 1
 
-### 1. Initialisation d'un dépôt Git local (4 points)
-- Ouvrez votre terminal.
-- Crée un dossier pour votre projet puis allez dedans
-- Utilisez la commande `git init` pour initialiser un dépôt Git local dans le répertoire de votre choix.
+### 1. Caractéristiques clés de Python
+- Simplicité et Lisibilité : La syntaxe de Python est simple et facile à lire, ce qui en fait un excellent choix pour les débutants et les programmeurs expérimentés. Les conventions de codage favorisent la lisibilité et la maintenabilité du code.
+- Interprété : Python est un langage interprété, ce qui signifie que vous n'avez pas besoin de compiler le code avant de l'exécuter. Cela accélère le processus de développement.
+- Orienté objet : Python prend en charge la programmation orientée objet (POO) et permet d'encapsuler le code en objets réutilisables, favorisant ainsi la modularité et la réutilisabilité du code.
 
 
-### 2. Lier le dépôt local à mon repo GitHub (1 point)
-- Acceptez mon invitation au repository sur GitHub.
-- Utilisez la commande `git remote add origin <URL_du_repo>` pour lier votre dépôt local à GitHub.
-- Utilisez la commande `git pull origin main` pour récupérer les dernières modifications du dépôt distant.
-- Copiez votre code dans le dossier du projet 
--`NE SURTOUT PAS PUSH MAINTENAT (-2 pts)`
+### 2. Utilisations courantes de Python
+- Développement Web : Avec des frameworks comme Django et Flask, Python est largement utilisé pour créer des applications web puissantes et extensibles.
+- Intelligence Artificielle et Apprentissage Machine : Des bibliothèques comme TensorFlow et PyTorch permettent le développement de modèles d'apprentissage machine et d'intelligence artificielle.
+- Automatisation et Scripts système : Python est souvent utilisé pour automatiser des tâches répétitives et pour écrire des scripts système en raison de sa simplicité et de sa polyvalence.
+- Jeux vidéo et Graphiques 3D : Python est utilisé dans le développement de jeux vidéo et de graphiques 3D grâce à des bibliothèques telles que Pygame et Pyglet.
 
-### 3. Générer un token (2 points)
-- Allez dans les paramètres de votre compte GitHub.
-- Sous "Developer settings", générez un token d'accès personnel avec les autorisations nécessaires.
 
-### 4. Générer une clé SSH (3 points)
-- Utilisez la commande `ssh-keygen` pour générer une paire de clés SSH.
-- Ajoutez votre clé publique à votre compte GitHub.
 
-### 5. Récupérer le dépôt Git distant et fusionner avec une nouvelle branche (5 points)
-- Créez une nouvelle branche qui aura pour nom votre prénom avec la commande `git checkout -b <votre prenom>`.
-- Ajouter votre projet a votre dit local avec `git add`
-- Puis commitez le 
-- Effectuez des modifications dans la nouvelle branche comme si on fait un hotfix (correctif).
-- Créez une nouvelle branche qui aura pour nom votre prénom-hotfix avec la commande `git checkout -b <votre prenom>-hotfix`.
-- Fusionnez la nouvelle branche avec la branche prénom-hotfix en utilisant `git merge`.
+Exemple de condition if-else: ``` if age >= 18:
+    print("Vous êtes majeur.")
+else:
+    print("Vous êtes mineur.")```
 
-### 6. Regarder les journaux en ligne de commande (3 points)
-- Utilisez `git log` pour afficher l'historique des commits dans votre dépôt.
 
-### Bonus - Créer une documentation soignée (2 points)
-- Vous pouvez améliorer la qualité de votre documentation en utilisant la syntaxe Markdown pour créer des listes, des titres, des blocs de code, etc.
-
-Exemple :
-
-\`\`\`markdown
-## Documentation du TP Git
-
-### Étape 1 - Initialisation du dépôt
-- Utilisez \`git init\` pour initialiser un dépôt local.
-
-### Étape 2 - Lier au dépôt distant
-- Utilisez \`git remote add origin <URL_du_repo>\` pour lier le dépôt local à GitHub.
-
-...
-
-\`\`\`
-
-N'oubliez pas de commenter chaque étape et d'expliquer clairement les commandes utilisées.
-
-## Points totaux : 20 points
-
-Profitez de cette opportunité pour apprendre les bases de Git, une compétence essentielle pour la gestion de versions de code et la collaboration en équipe. Bon travail !
+### voici un lien pour t'aider: 
+-> [Lien]("https://openclassrooms.com/fr/courses/7168871-apprenez-les-bases-du-langage-python").
