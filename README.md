@@ -9,8 +9,7 @@ Ce TP a pour objectif de vous familiariser avec les bases de Git, y compris l'in
 - Ouvrez votre terminal.
 - Crée un dossier pour votre projet puis allez dedans
 - Utilisez la commande `git init` pour initialiser un dépôt Git local dans le répertoire de votre choix.
-- Ajouter votre projet a votre dit local avec `git add`
-- Puis commitez le 
+
 
 ### 2. Lier le dépôt local à mon repo GitHub (1 point)
 - Acceptez mon invitation au repository sur GitHub.
@@ -29,6 +28,8 @@ Ce TP a pour objectif de vous familiariser avec les bases de Git, y compris l'in
 
 ### 5. Récupérer le dépôt Git distant et fusionner avec une nouvelle branche (5 points)
 - Créez une nouvelle branche qui aura pour nom votre prénom avec la commande `git checkout -b <votre prenom>`.
+- Ajouter votre projet a votre dit local avec `git add`
+- Puis commitez le 
 - Effectuez des modifications dans la nouvelle branche comme si on fait un hotfix (correctif).
 - Créez une nouvelle branche qui aura pour nom votre prénom-hotfix avec la commande `git checkout -b <votre prenom>-hotfix`.
 - Fusionnez la nouvelle branche avec la branche prénom-hotfix en utilisant `git merge`.
